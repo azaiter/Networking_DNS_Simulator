@@ -1,4 +1,4 @@
-**Client-Server Domain Server Mimicking Program**
+_**Client-Server Domain Server Mimicking Program**_
 
 When a computer needs to communicate with another computer, it needs to know the other computer’s address. An Internet protocol (IP) address uniquely identifies the computer on the Internet, An IP address consists of four dotted decimal numbers between 0 and 255, such as 130.254.204.31. Since it is not easy to remember so many numbers, they are often mapped to meaningful names called domain names, such as example.edu. Special servers called Domain Name Servers (DNS) on the Internet translate host names into IP addresses. When a computer contacts example.edu, it first asks the DNS to translate this domain name into a numeric IP address and then sends the request using the IP address. In this assignment, we will write a simple client-server program that simulates DNS.
 
